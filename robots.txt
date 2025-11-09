@@ -1,0 +1,17 @@
+# robots.txt for SIR West Bengal Helper
+# https://www.nftcalculator.click/robots.txt
+
+User-agent: *
+Allow: /
+
+# Allow all pages
+Sitemap: https://www.nftcalculator.click/sitemap.xml
+
+# Block sensitive folders (if any)
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /backup/
+
+# Block duplicate or low-value pages
+Disallow: /*?*
+Disallow: /thank-you.html
